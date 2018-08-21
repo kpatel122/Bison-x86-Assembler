@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BASM - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/BASM.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\ASMParser.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\file.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\functions.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\instructions.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\label.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\lexer.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\log.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\main.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\parser.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\script.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\string.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\strings.cpp"
+"C:\Kunal Patel\C C++\Bison Assembler\BASM\symbol.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/BASM.pdb" /debug /machine:I386 /out:"Debug/BASM.exe" /pdbtype:sept 
+".\Debug\ASMParser.obj"
+".\Debug\file.obj"
+".\Debug\functions.obj"
+".\Debug\instructions.obj"
+".\Debug\label.obj"
+".\Debug\lexer.obj"
+".\Debug\log.obj"
+".\Debug\main.obj"
+".\Debug\parser.obj"
+".\Debug\script.obj"
+".\Debug\string.obj"
+".\Debug\strings.obj"
+".\Debug\symbol.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98E.tmp"
+<h3>Output Window</h3>
+Compiling...
+ASMParser.cpp
+file.cpp
+functions.cpp
+instructions.cpp
+label.cpp
+lexer.cpp
+log.cpp
+main.cpp
+c:\kunal patel\c c++\bison assembler\basm\main.cpp(67) : warning C4101: 'lex' : unreferenced local variable
+c:\kunal patel\c c++\bison assembler\basm\main.cpp(68) : warning C4101: 'tok' : unreferenced local variable
+parser.cpp
+script.cpp
+string.cpp
+strings.cpp
+symbol.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+BASM.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

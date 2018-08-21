@@ -1,0 +1,20 @@
+stacksize 1045
+
+
+
+func Main
+{
+
+var x
+var y
+
+mov x,4
+mov y,7
+
+JGE y,x,L1
+
+L1:
+PUSH 5
+CALLHOST SayHello
+
+}

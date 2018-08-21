@@ -1,0 +1,43 @@
+Lex: func TOKEN_TYPE_FUNC 
+Lex: main TOKEN_TYPE_IDENT 
+Lex: { TOKEN_TYPE_OPEN_BRACE 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: PUSH TOKEN_TYPE_INSTR 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: CALLHOST TOKEN_TYPE_INSTR 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: PUSH TOKEN_TYPE_INSTR 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: CALLHOST TOKEN_TYPE_INSTR 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: } TOKEN_TYPE_CLOSE_BRACE 
+Commencing Second Pass
+Lex: func TOKEN_TYPE_FUNC 
+Lex: main TOKEN_TYPE_IDENT 
+Lex: { TOKEN_TYPE_OPEN_BRACE 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: PUSH TOKEN_TYPE_INSTR 
+Lex: "maps\map1.bsp" TOKEN_TYPE_STRING 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: CALLHOST TOKEN_TYPE_INSTR 
+Lex: BspLoadMap TOKEN_TYPE_IDENT 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: PUSH TOKEN_TYPE_INSTR 
+Lex: "music\metallica san.mp3" TOKEN_TYPE_STRING 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: CALLHOST TOKEN_TYPE_INSTR 
+Lex: SetMusic TOKEN_TYPE_IDENT 
+Lex: \n TOKEN_TYPE_NEWLINE 
+Lex: } TOKEN_TYPE_CLOSE_BRACE 
+
+lex errors: 0  parse errors: 0 
+number strings : 2
+number api callsd : 2
+number functions : 1
+number line lables : 0
+number symbols : 0
+number instruction : 5
+number Global vars : 0
+is main present : 0
+Writing BXE file...
+File Created suceesfuly!

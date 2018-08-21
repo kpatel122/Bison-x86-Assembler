@@ -1,0 +1,8 @@
+func main{ 
+
+PUSH "maps\map1.bsp"
+CALLHOST BspLoadMap
+PUSH "music\metallica san.mp3"
+CALLHOST SetMusic
+
+}
