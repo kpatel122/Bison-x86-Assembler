@@ -1,7 +1,7 @@
 # Bison x86 Assembler
 Bison x86 Assembler is a mini assembler based on the x86 instruction set. This project was for my university dissertation on developing  Compilers, Virtual Machines & Graphic Engines.
 
-![Screenshot](https://github.com/kpatel122/Bison-x86-Assembler/Images/BisonASM.jpg)
+![Screenshot](https://github.com/kpatel122/Bison-x86-Assembler/blob/master/Images/BisonASM.jpg)
 
 # Description
 The Assembler performs the following operations
